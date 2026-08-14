@@ -35,6 +35,8 @@ outputs:
         - liblapack
         - libxsmm
         - elpa =*=*nompi*
+      run:
+        - libxsmm
 
     test:
       commands:
